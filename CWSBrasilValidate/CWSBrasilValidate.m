@@ -676,19 +676,21 @@
         }
         // Fim Roraima
         
+        // http://www.sintegra.gov.br/Cad_Estados/cad_SC.html
         // Inicio Santa Catarina
         if ([estado isEqualToString:@"SC"] || [estado isEqualToString:@"Santa Catarina"]) {
-            if ([ie length] != 9){return NO;}
-            else{
-                int b = 9;
+            if ([ie length] != 9) { return NO; }
+            else {
+                int peso = 9;
                 int soma = 0;
-                for(int i=0; i<=7; i++){
-                    soma += [[NSString stringWithFormat:@"%c", [ie characterAtIndex: i]] intValue] * b;
-                    b--;
+                int dig = -1;
+                for (int i=0; i <= 7; i++) {
+                    soma += [[NSString stringWithFormat:@"%c", [ie characterAtIndex: i]] intValue] * peso;
+                    peso--;
                 }
-                int dig = 11 - (soma % 11);
-                if (dig <= 1){dig = 0;}
-                return (dig == [[NSString stringWithFormat:@"%c", [ie characterAtIndex: 8]] intValue]);
+                dig = 11 - (soma % 11);
+                if ((soma % 11) == 0 || (soma % 11) == 1) dig = 0;
+                return (dig == [[NSString stringWithFormat:@"%c", [ie characterAtIndex: [ie length]-1]] intValue]);
             }
         }
         // Fim Santa Catarina

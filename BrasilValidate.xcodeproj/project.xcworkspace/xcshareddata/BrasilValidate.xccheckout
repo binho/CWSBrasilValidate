@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>96BB1FA6-BEF0-43F3-B002-307C9BB836A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BrasilValidate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>70D3ADB3-F88A-4253-A7F5-A5A69D12249A</key>
+		<string>https://github.com/binho/BrasilValidate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BrasilValidate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>70D3ADB3-F88A-4253-A7F5-A5A69D12249A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/binho/BrasilValidate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>70D3ADB3-F88A-4253-A7F5-A5A69D12249A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>70D3ADB3-F88A-4253-A7F5-A5A69D12249A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BrasilValidate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
